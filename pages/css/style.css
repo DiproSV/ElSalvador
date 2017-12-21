@@ -35,7 +35,10 @@ body a:hover{
 .tips.w3agile {
     background: #eee;
 }
-
+h3.w3layouts-title1 {
+    font-size: 3em; 
+    color: #ef297be3;
+}
 /*-- banner --*/
 .banner{
 	background: url(../images/1.jpg)no-repeat 0px 0px;
@@ -324,6 +327,7 @@ p {
     width: 90%;
 }
 .welcome-grids {
+	background: #e0f9f94f;
     border: 2px solid #333;
     padding: 2.5em 2em;
     width: 21%;
@@ -390,6 +394,8 @@ p {
 .services h3.w3layouts-title {
     color: #fff;
 }
+
+
 .services-agile-grid {
     text-align: center;
 }
@@ -690,9 +696,12 @@ h2.resp-accordion {
 }
 /*-- //slider-up-arrow --*/ 
 .tips.w3agile {
-    background: #f3fbf9;
-        width: 105%;
-    margin-left: -3%;
+ /*   background: #f3fbf9;
+    width: 105%;
+    margin-left: -3%;*/
+ background: #1b2a5f;
+    width: 119%;
+    margin-left: -10%;
 }
 .tip-grid img{
 	width:100%;
@@ -758,7 +767,7 @@ h2.resp-accordion {
 /***** Julia *****/
 
 figure.effect-julia {
-	background: #ffffff;
+	background: #ffffff00;
 }
 
 figure.effect-julia img {
@@ -990,6 +999,9 @@ img.zoom-img:hover{
 h3.w3layouts-title {
     font-size: 3.6em; 
 }
+h3.w3layouts-title1 {
+    font-size: 2.5em; 
+}
 .welcome,.gallery {
     padding: 4em 0;
 }
@@ -1017,8 +1029,9 @@ h3.w3layouts-title {
 }
 @media(max-width:991px){
 	.tip-grid {
-		float: left;
-		width: 50%;
+    float: left;
+    width: 100%;
+    margin-bottom: 3%;
 	}
 	figure.effect-julia h4 {
 		margin-bottom: 1em;
@@ -1028,7 +1041,9 @@ h3.w3layouts-title {
 		float: left;
 		width: 25%;
 	}
-
+figure.effect-julia p {
+	visibility: hidden;
+}
 .navbar-nav > li > a {
     padding: 1em 1em; 
 }
@@ -1269,6 +1284,10 @@ h3.w3layouts-title {
     font-size: 2.7em;
 	margin-bottom: 0.6em;
 }
+h3.w3layouts-title1 {
+    font-size: 2em; 
+    color: #ef297be3;;
+}
 .welcome h2 { 
     margin: 1.6em 0 0.5em;
 }
@@ -1396,10 +1415,15 @@ p {
 
 }
 @media(max-width:414px){
+	#swipebox-top-bar {
+    bottom: 25%;
+}
+
 .welcome-grids {
     margin: 1em auto 0 !important;
     width: 58%; 
     float: none;
+    height: 50%;
 }
 
 .resp-tabs-list {
@@ -1486,6 +1510,9 @@ p {
 }
 h3.w3layouts-title {
     font-size: 2em;
+}
+h3.w3layouts-title1 {
+    font-size: 1.8em; 
 }
 .welcome h2 { 
     font-size: 1.1em;
