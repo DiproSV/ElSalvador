@@ -928,7 +928,7 @@ figure.effect-julia:hover p {
 .open-hours-left1 h4 {
     font-size: 1.5em;
     color: #fff;
-    line-height: 1.8em;
+    line-height: 0.2em;
 }
 .open-hours-left2 h4 {
     font-size: 1.5em;
@@ -1374,6 +1374,7 @@ h3.w3layouts-title1 {
 }
 }
 @media(max-width:480px){
+	
 .agile {
     color: #01b6f3;
     font-size: 1.3em;
@@ -1383,10 +1384,8 @@ h3.w3layouts-title1 {
     height: 70px;
 }
 .open-hours-left1 h4 {
-	padding: 0em;
-    font-size: 1em;
-    color: #fff;
-    margin: -15px;
+    font-size: 0.9em;
+    margin: -5px;
 }
 .services-agile-grid {
     font-size: 0.8em;
