@@ -897,7 +897,7 @@ figure.effect-julia:hover p {
 	height: 50px;
 }
 
-.open-hours-left2 {
+.open-hours-left2{
     padding: 4.06em 0;
     text-align: center;
 	-webkit-transition: .5s all;
@@ -907,7 +907,7 @@ figure.effect-julia:hover p {
 	height: 250px;
     border: 1px dotted #00a0f0;
 }
-.open-hours-left2 p {
+ .open-hours-left2 p {
 	margin: 3em;
     text-align: center;
 }
