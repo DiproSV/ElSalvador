@@ -315,7 +315,7 @@ p {
 }
 .welcome p.wel-text {
     font-size: 1em;
-    color: #999;
+    color: #585050;
     text-align: center;
     line-height: 1.8em;
     width: 80%;
@@ -910,6 +910,7 @@ figure.effect-julia:hover p {
  .open-hours-left2 p {
 	margin: 3em;
     text-align: center;
+    color: #ad9393;
 }
 .open-hours-left:nth-child(1) {
     background: #00a0f0;
@@ -1067,6 +1068,14 @@ h3.w3layouts-title1 {
 
 }
 @media(max-width:991px){
+.agile {
+    color: #01b6f3;
+    font-size: 1.5em;
+    margin: 1em 0 .1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    height: 100px;
+}
 	.tip-grid {
     float: left;
     width: 100%;
@@ -1365,6 +1374,20 @@ h3.w3layouts-title1 {
 }
 }
 @media(max-width:480px){
+.agile {
+    color: #01b6f3;
+    font-size: 1.3em;
+    margin: 1em 0 .1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    height: 70px;
+}
+.open-hours-left1 h4 {
+	padding: 0em;
+    font-size: 1em;
+    color: #fff;
+    margin: -15px;
+}
 .services-agile-grid {
     font-size: 0.8em;
 }
