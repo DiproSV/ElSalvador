@@ -153,7 +153,7 @@ nav.navbar.navbar-default1 {
 }
 .navbar-default1 .navbar-nav {
     width: 100%; 
-    border-color: #c1f1db;
+    border-color: #fff;
 }
 
 .navbar-default1 .navbar-nav > li {
@@ -384,7 +384,11 @@ p {
 	left:-100%;
 }
 /*-- //welcome --*/
-
+.open-hours-left1:nth-child(1) {
+    background: #f0004e;
+    padding: 3em 0;
+    font-size: 1.5em;
+}
 
 /*-- services --*/
 .services {
@@ -883,6 +887,30 @@ figure.effect-julia:hover p {
     transition: .5s all;
 	background: #80e4c8;
 }
+.open-hours-left1 {
+    padding: 4.06em 0;
+    text-align: center;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all; 
+    transition: .5s all;
+	background: #80e4c8;
+	height: 50px;
+}
+
+.open-hours-left2 {
+    padding: 4.06em 0;
+    text-align: center;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all; 
+    transition: .5s all;
+	background: #1b2a5f;
+	height: 250px;
+    border: 1px dotted #00a0f0;
+}
+.open-hours-left2 p {
+	margin: 3em;
+    text-align: center;
+}
 .open-hours-left:nth-child(1) {
     background: #00a0f0;
     padding: 3em 0;
@@ -896,6 +924,17 @@ figure.effect-julia:hover p {
     color: #fff;
     line-height: 1.8em;
 }
+.open-hours-left1 h4 {
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.8em;
+}
+.open-hours-left2 h4 {
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.2em;
+}
+
 .open-hours-left h6 {
     font-size: 1em;
     color: #f1efef; 
@@ -1326,6 +1365,9 @@ h3.w3layouts-title1 {
 }
 }
 @media(max-width:480px){
+.services-agile-grid {
+    font-size: 0.8em;
+}
 .social-icons ul li a.fa { 
     width: 35px;
     height: 35px;
