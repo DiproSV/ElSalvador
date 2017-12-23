@@ -37,7 +37,7 @@ body a:hover{
 }
 h3.w3layouts-title1 {
     font-size: 3em; 
-    color: #ef297be3;
+    color: #ef2929e3;
 }
 /*-- banner --*/
 .banner{
@@ -394,6 +394,7 @@ p {
 .services {
     background: url(../images/fondolb.jpeg)no-repeat center fixed;
     padding: 4em 0 5em;
+        height: auto;
 }
 .services h3.w3layouts-title {
     color: #fff;
@@ -613,7 +614,86 @@ h2.resp-accordion {
 	-ms-transform: translate3d(0,0,0);
 }
 /*-- //portfolio --*/
-
+/*-- contact --*/
+.agileits-w3layouts-map {
+   /* margin:5em 0 0;
+   */
+}
+.agileits-w3layouts-map iframe {
+	width: 100%;
+	min-height: 350px;
+	border: none;
+}
+.contact-form h5 {
+    font-size: 2em;
+    color:#00b6f3;
+}
+.contact-right p { 
+    margin: 0.5em 0 2em;
+}
+.address.address-mdl {
+    /*margin: 2em 0;*/
+}
+.address p {
+    font-size: 1em;
+    color: #999;
+    margin-top: 1em;
+}
+.address p i.glyphicon {
+    font-size: 1em;
+    color: #F44336;
+    margin-right: 0.5em;
+}
+.address p a {
+    color: #999;
+}
+.address p a:hover{
+    color: #00b6f3;
+}
+.contact-form input[type="text"] {
+    width: 32%;
+    color: #999;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .7em .8em;
+    border: solid 1px #ccc;
+    -webkit-appearance: none;
+    display: inline-block;
+} 
+input.email {
+    margin: 0 0.6em;
+}
+.contact-form textarea {
+    resize: none;
+    width: 100%;
+    background: none;
+    color: #999;
+    font-size: 1em;
+    outline: none;
+    padding: .7em .8em;
+    border: solid 1px #ccc;
+    min-height: 8em;
+    -webkit-appearance: none;
+    margin-top: 1em;
+}
+.contact-form input[type="submit"]{
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: .8em 3em;
+    font-size: 1em;
+    margin: 1em 1em 0 0;
+    -webkit-appearance: none;
+    background: #00b6f3;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+.contact-form input[type="submit"]:hover{
+	background:#F44336;
+}
+/*-- //contact --*
 /*-- footer --*/
 .footer {
     padding-bottom: 5em;
@@ -706,6 +786,13 @@ h2.resp-accordion {
  background: #1b2a5f;
     width: 119%;
     margin-left: -10%;
+}
+.tips.w3agile1 {
+ 	background: #1b2a5f;
+    width: 100%;
+    height: 20em;
+    padding: 3em;
+    text-align: center;
 }
 .tip-grid img{
 	width:100%;
@@ -876,7 +963,8 @@ figure.effect-julia:hover p {
     margin-top: 2em;
 }
 .open-hours-row {
-    background: #83d6ff;
+    /*background: #83d6ff;*/
+    background: #00a0f0;
     border:2px dotted #00a0f0;
 }
 .open-hours-left {
@@ -1068,6 +1156,10 @@ h3.w3layouts-title1 {
 
 }
 @media(max-width:991px){
+	.tips.w3agile1 {
+    height: 30em;
+    font-size: 0.9em;
+}
 .agile {
     color: #01b6f3;
     font-size: 1.5em;
@@ -1184,9 +1276,11 @@ h3.w3layouts-title {
 .banner {
     min-height: 503px;
 }
+/*
 .navbar-right.social-icons {
     margin-right: 0.3em;
 }
+*/
 }
 @media(max-width:767px){
 .agileits-logo h1 {
@@ -1208,9 +1302,11 @@ h3.w3layouts-title {
 .agileits-logo.navbar-left {
     float: left;
 }
+/*
 .navbar-right.social-icons { 
     float: right;
 }
+*/
 .social-icons ul li a.fa { 
     line-height: 2.5em; 
     width: 37px;
@@ -1566,9 +1662,11 @@ p {
     margin: 5px 2px;
     font-size: 0.9em;
 }
+/*
 .navbar-right.social-icons {
     margin-right: 0;
 }
+*/
 .w3l-effect a {
     height: 54px;
 }
