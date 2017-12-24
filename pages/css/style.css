@@ -302,7 +302,7 @@ h3.w3layouts-title {
 }
 p {
     font-size: 1em;
-    color: #999;
+    color: #6f6868;
     line-height: 1.8em;
     font-weight: 400;
 }
@@ -595,7 +595,7 @@ h2.resp-accordion {
     -ms-transform: translate3d(0,50px,0);
     padding: 21px 30px;
     font-size: 1.2em;
-    color: #fff;
+    color: #5d5b5b;
     letter-spacing: 1px;
 }
 .agileinfo-effect :hover img {
@@ -1233,7 +1233,7 @@ figure.effect-julia p {
 }
 .agileinfo-effect p {
     padding: 27px 12px;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .services {
