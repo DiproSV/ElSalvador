@@ -316,7 +316,7 @@ html.swipebox-html.swipebox-touch {
     margin: 1em auto 0 !important;
 } 
 #swipebox-top-bar {
-    bottom: 6%;
+    bottom: 12%;
 }
 }
 @media(max-width:768px){ 
