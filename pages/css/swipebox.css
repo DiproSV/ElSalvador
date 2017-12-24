@@ -124,8 +124,6 @@ html.swipebox-html.swipebox-touch {
     margin: 0 auto !important;
 }
 
-#swipebox-prev,
-#swipebox-next,
 #swipebox-close {
   background-image: url(../images/icons.png);
   background-repeat: no-repeat;
@@ -135,6 +133,17 @@ html.swipebox-html.swipebox-touch {
   width: 50px;
   height: 50px;
   top: 0;
+}
+#swipebox-prev,
+#swipebox-next {
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+  border: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin-top: -15%;
 }
 
 #swipebox-arrows {

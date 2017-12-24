@@ -516,7 +516,7 @@ p {
 }
 .resp-tab-item {
     color: #555;
-    font-size: 1em;
+    font-size: 1.3em;
     cursor: pointer;
     display: inline-block;
     list-style: none;
@@ -595,7 +595,7 @@ h2.resp-accordion {
     -ms-transform: translate3d(0,50px,0);
     padding: 21px 30px;
     font-size: 1.2em;
-    color: #5d5b5b;
+    color: #1f1d1d;
     letter-spacing: 1px;
 }
 .agileinfo-effect :hover img {
@@ -783,6 +783,7 @@ input.email {
  /*   background: #f3fbf9;
     width: 105%;
     margin-left: -3%;*/
+   /* background: #0cb8b6;*/
  background: #1b2a5f;
     width: 119%;
     margin-left: -10%;
@@ -806,7 +807,8 @@ input.email {
 /* Common style */
 .tip-grid figure {
 	position: relative;
-	float: left;
+/*	float: left; */
+	margin-left: 8%;
 	overflow: hidden;
 	height: auto;
 	background: #3085a3;
@@ -817,7 +819,7 @@ input.email {
 .tip-grid figure img {
 	position: relative;
 	display: block;
-	max-width: 100%;
+	max-width: 97%;
 	opacity: 0.8;
 }
 
@@ -992,6 +994,7 @@ figure.effect-julia:hover p {
 	-moz-transition: .5s all; 
     transition: .5s all;
 	background: #1b2a5f;
+	/* background: #0cb8b6;*/
 	height: 250px;
     border: 1px dotted #00a0f0;
 }
@@ -999,6 +1002,7 @@ figure.effect-julia:hover p {
 	margin: 3em;
     text-align: center;
     color: #ad9393;
+    /*color: #0cb8b6*/
 }
 .open-hours-left:nth-child(1) {
     background: #00a0f0;
@@ -1128,7 +1132,7 @@ h3.w3layouts-title {
     font-size: 3.6em; 
 }
 h3.w3layouts-title1 {
-    font-size: 2.5em; 
+    font-size: 3em; 
 }
 .welcome,.gallery {
     padding: 4em 0;
@@ -1638,6 +1642,7 @@ p {
 }
 }
 @media(max-width:375px){
+
 .navbar-nav > li > a {
     font-size: 1em;
 }
@@ -1652,6 +1657,10 @@ p {
 }
 }
 @media(max-width:320px){
+h3.w3layouts-title1 {
+   color: #fff;
+}
+
 .agileits-logo h1 {
     font-size: 1.9em;
 }
