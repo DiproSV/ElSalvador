@@ -144,7 +144,7 @@
 	background: #A6A5A9;
 }
 
-
+/*
 #wowslider-container1.ws_gestures {
 	cursor: -webkit-grab;
 	cursor: -moz-grab;
@@ -154,7 +154,7 @@
 	cursor: -webkit-grabbing;
 	cursor: -moz-grabbing;
 	cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAABaSURBVEjH7ZMxCkAhDEOT8u9/5TpJ+xWkFse8IYutJgEB8RCHL1qCc90BEFnT6QH7mwgFHBUf8wJyS1TDLuc3vmighx37LZdIth3E5hKj9n6O0HRh+oJCiFcMxRUUDxR1CTMAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTQtMDctMDdUMTM6NDk6MzgrMDI6MDDqf+sOAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE0LTA3LTA3VDEzOjQ5OjM4KzAyOjAwmyJTsgAAAABJRU5ErkJggg=="), move;
-}
+}*/
 
 /* hide controls when video start play */
 #wowslider-container1.ws_video_playing .ws_bullets,
