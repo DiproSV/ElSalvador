@@ -314,7 +314,7 @@ p {
     margin-bottom: 0.6em;
 }
 .welcome p.wel-text {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #585050;
     text-align: center;
     line-height: 1.8em;
@@ -1586,7 +1586,7 @@ h3.w3layouts-title {
     letter-spacing: 2px;
 }
 .welcome p.wel-text {
-    font-size: 0.9em; 
+    font-size: 1em; 
 }
 .welcome-grids {
     margin: 1em 0.6em 0 !important;
