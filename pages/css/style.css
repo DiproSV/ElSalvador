@@ -803,7 +803,6 @@ input.email {
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
-	margin-left: 5%;
 }
 /* Common style */
 .tip-grid figure {
@@ -858,6 +857,69 @@ input.email {
 	font-size: 68.5%;
 }
 
+/*  */ 
+.tip-grid1 img{
+	width:100%;
+}
+.tip-grid1 {
+	position: relative;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+	margin-left: 5%;
+}
+/* Common style */
+.tip-grid1 figure {
+	position: relative;
+/*	float: left; */
+	margin-left: 8%;
+	overflow: hidden;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tip-grid1 figure img {
+	position: relative;
+	display: block;
+	max-width: 97%;
+	opacity: 0.8;
+}
+
+.tip-grid1 figure figcaption {
+    padding: 2px 25px 0px 25px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.tip-grid1 figure figcaption,
+.tip-grid1 figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.tip-grid1 figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.tip-grid1 figure h4,
+.grid figure p {
+	margin: 0;
+}
+
+.tip-grid1 figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
 /***** Julia *****/
 
 figure.effect-julia {
@@ -960,6 +1022,7 @@ figure.effect-julia:hover p {
     padding-left: 0.5em;
 }
 .welcome-left p {
+	text-align: justify;
     font-size: 1.2em;
     color: #777;
     line-height: 1.9em;
@@ -1101,7 +1164,7 @@ img.zoom-img:hover{
 	figure.effect-julia h4 {
 		font-size: 1.8em;
 	}
-	.tip-grid figure p {
+	.tip-grid1 figure p {
 		letter-spacing: 0px;
 	}
 	figure.effect-julia h4 {
@@ -1174,6 +1237,12 @@ h3.w3layouts-title1 {
     height: 100px;
 }
 	.tip-grid {
+    float: left;
+    width: 100%;
+	margin: 0 auto;
+	padding: 2%;
+	}
+	.tip-grid1 {
     float: left;
     width: 100%;
 	margin: 0 auto;
