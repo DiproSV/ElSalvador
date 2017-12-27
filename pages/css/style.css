@@ -803,6 +803,7 @@ input.email {
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+	margin-left: 5%;
 }
 /* Common style */
 .tip-grid figure {
@@ -959,7 +960,7 @@ figure.effect-julia:hover p {
     padding-left: 0.5em;
 }
 .welcome-left p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #777;
     line-height: 1.9em;
     margin-top: 2em;
@@ -1175,6 +1176,7 @@ h3.w3layouts-title1 {
 	.tip-grid {
     float: left;
     width: 100%;
+	margin: 0 auto;
     margin-bottom: 3%;
 	}
 	figure.effect-julia h4 {
