@@ -405,11 +405,11 @@ p {
     text-align: center;
 }
 .agile{
-	color: #01b6f3;
-    font-size: 1.5em;
+	color: #5fd0fb;
+    font-size: 1.3em;
     margin: 1em 0 .1em;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+   /* font-weight: 300;*/
 }
 .w3-agile-counter {
     color: #01b6f3;
@@ -425,7 +425,7 @@ p {
 /*-- Effect 1 --*/ 
 .services-agile-grid span.glyphicon{
     font-size: 2em;
-    color: #F44336;
+    color: #9a1919;
     display: inline-block;
 	-webkit-border-radius: 50%; 
 	-moz-border-radius: 50%;
@@ -451,7 +451,7 @@ p {
 	box-sizing: content-box;
 }
 .wthree-effect {
-	border: 1px solid #F44336;
+	border: 1px solid #da2727;
 	-webkit-transition: background 0.5s, color 0.2s;
 	-moz-transition: background 0.5s, color 0.2s;
 	transition: background 0.5s, color 0.2s;
